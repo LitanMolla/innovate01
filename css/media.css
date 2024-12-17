@@ -8,6 +8,9 @@
 
 /* Medium devices */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+    *{
+        overflow-x: hidden;
+    }
     .nav-item {
         margin: auto;
     }
@@ -118,6 +121,17 @@
     .footerLink a {
         margin: 0 20px;
     }
+
+    .bannerHeader h1 {
+        line-height: normal;
+    }
+
+    .connectLeft{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
     /* ======================================================= */
  }
 
@@ -125,7 +139,7 @@
 /* Small devices */
 @media (min-width: 576px) and (max-width: 767.98px) { 
     *{
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
 
     .nav-item {
@@ -276,6 +290,17 @@
 
     .costomerProfile {
         justify-content: center;
+    }
+
+    .bannerHeader h1 {
+        line-height: normal;
+    }
+
+    .connectLeft{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        width: 0;
     }
  }
 
@@ -462,5 +487,16 @@
 
     .costomerProfile {
         justify-content: center;
+    }
+
+    .bannerHeader h1 {
+        line-height: normal;
+    }
+
+    .connectLeft{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        width: 0;
     }
  }
