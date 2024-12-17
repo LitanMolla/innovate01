@@ -1,0 +1,466 @@
+/* Extra large devices */
+@media (min-width: 1200px) {  }
+
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .nav-item {
+        margin: auto;
+    }
+
+    .navbar-nav{
+        background: pink;
+        padding: 30px 0;
+        border-radius: 18px;
+    }
+    .collapse button{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #bannerPart {
+        padding-top: 230px;
+    }
+
+    .serviceItem {
+        margin: 10px 0;
+    }
+
+     /* =================================================== */
+     .connectLeft{
+        visibility: hidden;
+        opacity: 0;
+     }
+
+     .connectRight {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .connectItemPart {
+        display: grid !important;
+        position: static !important;
+        text-align: center;
+    }
+
+
+    .connectRight h2 {
+        padding: 10px;
+    }
+
+    .connectRight p {
+        padding: 10px;
+    }
+
+    .completedItem {
+        margin: 10px 0;
+    }
+
+    .counterItem {
+        padding: 50px;
+        background: #fff;
+        margin: 10px 0;
+    }
+
+    .counterItemErAbba{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .counterText {
+        margin: 0 30px ;
+        text-align: center;
+    }
+
+    .counterText h1,.counterText p {
+        margin-right: 0;
+    }
+
+    .partnerHead{
+        display: grid;
+        grid-template-columns: 3fr 3fr 3fr;
+    }
+
+    .partnerItem {
+        margin: 10px 0;
+    }
+
+    .coustomerLeft, #projectPart{
+        text-align: center;
+    }
+
+    .costomerProfile {
+        justify-content: center;
+    }
+
+    #footerPart {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+
+    .footerLogo p {
+        padding: 0 20px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .footerLink {
+        text-align: center !important;
+    }
+
+    .footerLink a {
+        margin: 0 20px;
+    }
+    /* ======================================================= */
+ }
+
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    *{
+        /* overflow-x: hidden; */
+    }
+
+    .nav-item {
+        margin: auto;
+    }
+
+    .navbar-nav{
+        background: pink;
+        padding: 30px 0;
+        border-radius: 18px;
+    }
+    .collapse button{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bannerHeader h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+
+    #bannerPart {
+        padding-top: 200px;
+    }
+
+    .serviceItem {
+        margin: 10px 0;
+    }
+
+    /* =================================================== */
+    .connectLeft {
+        width: 100%;
+    }
+
+    .cLeftItem img {
+        width: 100%;
+    }
+
+    .cLeftItem {
+        position: static;
+        transform: translate(0);
+        height: 100%;
+        width: 100%;
+    }
+
+    .connectRight {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .connectItemPart {
+        display: grid !important;
+        position: static !important;
+        text-align: center;
+    }
+
+
+    .connectRight h2 {
+        padding: 10px;
+    }
+
+    .connectRight p {
+        padding: 10px;
+    }
+
+    /* ======================================================= */
+
+    .completedItem {
+        margin: 10px 0;
+    }
+
+    #counterPart {
+        padding: 60px 0;
+    }
+
+    .counterItem {
+        margin: 10px 0;
+    }
+
+    .counterItemErAbba{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .partnerHead{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .counterText {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .counterText h1, .counterText p {
+        margin-right: 0;
+    }
+
+    .partnerItem {
+        margin: 10px 0;
+    }
+
+    #partnerPart {
+        margin: 60px 0;
+    }
+
+    #coustomerPart {
+        background: #FDF9F8;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .coustomerLeft h4 {
+        display: flex;
+        gap: 10px;
+    }
+
+    #projectPart {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #footerPart {
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .footerLogo p {
+        padding-right: 0;
+    }
+
+    .footerItem ul li a {
+        line-height: normal;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .footerLink {
+        text-align: center !important;
+    }
+
+    .footerLink a {
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .costomerProfile {
+        justify-content: center;
+    }
+ }
+
+
+/* Extra small devices */
+@media (max-width: 575.98px) { 
+    *{
+        overflow-x: hidden;
+    }
+
+    .nav-item {
+        margin: auto;
+    }
+
+    .navbar-nav{
+        background: pink;
+        padding: 30px 0;
+        border-radius: 18px;
+    }
+    .collapse button{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .bannerHeader h1 {
+        font-size: 53px;
+    }
+
+    #bannerPart {
+        padding-top: 200px;
+    }
+
+    .serviceItem {
+        margin: 10px 0;
+    }
+
+/* =================================================== */
+    .connectLeft {
+        width: 100%;
+    }
+
+    .cLeftItem img {
+        width: 100%;
+    }
+
+    .cLeftItem {
+        position: static;
+        transform: translate(0);
+        height: 100%;
+        width: 100%;
+    }
+
+    .connectRight {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .connectItemPart {
+        display: grid !important;
+        position: static !important;
+        text-align: center;
+    }
+
+
+    .connectRight h2 {
+        padding: 10px;
+    }
+
+    .connectRight p {
+        padding: 10px;
+    }
+
+    /* ======================================================= */
+
+    .completedItem h3,.completedItem a {
+        margin-left: 0;
+    }
+
+    #completedWorkID {
+        margin-top: 90px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .completedItem img {
+        height: 300px;
+    }
+
+    .completedHeader h2 {
+        font-size: 40px;
+    }
+
+    .completedItem a {
+        line-height: normal;
+    }
+
+    .counterText {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .counterText h1 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .counterText p {
+        margin-right: 0;
+    }
+
+    #counterPart {
+        padding: 75px 0;
+    }
+
+    .counterItem {
+        padding: 30px;
+        background: #fff;
+        margin: 10px 0;
+        text-transform: capitalize;
+    }
+
+    #partnerPart {
+        margin: 60px 0;
+    }
+
+    .partnerItem {
+        margin: 10px;
+    }
+
+    #coustomerPart {
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .coustomerLeft h1 {
+        font-size: 40px;
+    }
+
+    .costomerProfile {
+        margin: 30px 0;
+    }
+
+    .coustomerLeft h4 {
+        display: flex;
+        gap: 10px;
+    }
+
+    #projectPart {
+        background: #FFD7C8;
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    #footerPart {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .footerLogo p {
+        padding: 10px 0;
+    }
+
+    .footerItem h4 {
+        font-size: 20px;
+    }
+
+    .footerItem ul li a {
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .footerLink {
+        text-align: center !important;
+    }
+
+    .footerLink a {
+        margin: 0 10px;
+    }
+
+    .costomerProfile {
+        justify-content: center;
+    }
+ }

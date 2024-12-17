@@ -1,0 +1,627 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #29313D;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+/* All Common CSS End */
+
+/* Banner Par Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-item{
+    margin: 0 20px;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.collapse button:hover{
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    background: #fff;
+}
+
+.collapse button{
+    background: #FF5538;
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 28px;
+    font-weight: 600;
+    line-height: 200%;
+    border-radius: 18px;
+    border: none;
+    transition: .5s;
+}
+/* Banner Par End */
+
+/* Banner Par Start */
+#bannerPart{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 295px;
+    padding-bottom: 395px;
+}
+
+
+.bannerHeader h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 130%;
+}
+.bannerHeader p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    padding: 0 35px;
+    padding-top: 24px;
+    padding-bottom: 44px;
+}
+
+.bannerHeader button:hover{
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    background: transparent;
+}
+
+.bannerHeader button{
+    background: #FF5538;
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 28px;
+    font-weight: 600;
+    line-height: 200%;
+    border-radius: 18px;
+    border: none;
+    transition: .5s;
+    margin: 0 10px;
+}
+/* Banner Par End */
+
+/* Servicx Par Start */
+#servicePart{
+    margin-top: -300px;
+    margin-bottom: 120px;
+}
+
+/* .serviceItemPart{
+    top: -300px;
+    position: relative;
+} */
+
+.serviceItem{
+    padding: 40px 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.serviceItem h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: capitalize;
+    margin-top: 34px;
+    margin-bottom: 16px;
+}
+.serviceItem p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    text-transform: capitalize;
+}
+/* Servicx Par End */
+
+/* Connect Par Start */
+.connectItemPart{
+    position: relative;
+}
+
+.cLeftItem {
+    position: absolute;
+    height: 80%;
+    width: 45%;
+    /* background: #FF5538; */
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cLeftItem img{
+    width: 100%;
+    height: 100%;
+}
+
+.connectHeader p{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #FF5538;
+}
+
+.connectHeader h2{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.connectLeft{
+    width: 40%;
+}
+
+.connectRight{
+    width: 60%;
+    background: #FBF3F0;
+    padding: 100px 100px 100px 185px;
+}
+
+.connectRight h2{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+    padding-right: 300px;
+}
+
+.connectRight p{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    padding-right: 335px;
+    margin-bottom: 48px;
+    margin-top: 20px;
+}
+
+.connectRight button:hover{
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    background: transparent;
+}
+
+.connectRight button{
+    background: #FF5538;
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 28px;
+    font-weight: 600;
+    line-height: 200%;
+    border-radius: 18px;
+    border: none;
+    transition: .5s;
+    margin: 0 10px;
+    text-transform: capitalize;
+}
+
+
+
+
+.digitalr8{
+    background: #FBF3F0;
+    padding: 100px 0;
+}
+
+.digitalRightText h1{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #29313D;
+    text-transform: capitalize;
+}
+
+.digitalRightText p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 200%;
+    color: #29313D;
+    text-transform: capitalize;
+    padding-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+
+.digitalRightText button{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 200%;
+    color: #fff;
+    background: #FF5538;
+    border-radius: 18px;
+    padding: 14px 28px;
+    text-transform: capitalize;
+    border: none;
+    transition: .5s;
+}
+
+.digitalRightText button:hover{
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    background: #fff;
+}
+
+
+.digitalLeftImg{
+    position: relative;
+    
+
+}
+
+.digitalPosition{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+    width: 120%;
+}
+
+.digitalPosition img{
+    width: 100%;
+}
+/* Connect Par End */
+
+/* Completed Works Par Start */
+#completedWorkID{
+    margin-top: 170px;
+    margin-bottom: 120px;
+}
+
+.completedHeader p{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #FF5538;
+}
+
+.completedHeader h2{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+
+.completedItem{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.completedItem img{
+    display: block;
+    width: 100%;
+    height: 458px;
+}
+
+.completedItem h3{
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.completedItem a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #FF5538;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    text-transform: capitalize;
+}
+/* Completed Works Par End */
+
+/* Counter Par Start */
+#counterPart{
+    background: #FDF9F8;
+    background-image: url(../images/counter-ab.png);
+    padding: 120px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.counterText{
+    margin-left: 90px;
+}
+
+.counterText button:hover{
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    background: transparent;
+}
+
+.counterText h1{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-right: 100px;
+}
+
+.counterText p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 200%;
+    margin-top: 20px;
+    margin-bottom: 48px;
+    margin-right: 100px;
+}
+
+.counterText button{
+    background: #FF5538;
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 28px;
+    font-weight: 600;
+    line-height: 200%;
+    border-radius: 18px;
+    border: none;
+    transition: .5s;
+    text-transform: capitalize;
+}
+
+.counterItem{
+    padding: 74px 60px;
+    background: #fff;
+}
+
+.counterItem h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 140%;
+}
+/* Counter Par End */
+
+/* Partenr Par Start */
+#partnerPart{
+    margin: 120px 0;
+}
+
+.partnerHeader h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 60px;
+}
+
+.partnerItem{
+    background: #FDF9F8;
+    padding: 40px 50px;
+}
+
+.partnerItem img{
+    width: 100%;
+}
+/* Partenr Par End */
+
+/* customer Par Start */
+#coustomerPart{
+    background: #FDF9F8;
+    padding: 120px 0;
+}
+
+.userProfile{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.userProfile img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.costomerRevew img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.coustomerLeft h1{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.costomerProfile{
+    margin: 60px 0;
+}
+
+.coustomerLeft p{
+    font-size: 20px;
+    line-height: 180%;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.coustomerLeft h4{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 180%;
+}
+
+.coustomerLeft a i{
+    font-size: 24px;
+    background: #FFDDD7;
+    padding: 20px 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.coustomerLeft a i:hover{
+    font-size: 24px;
+    background: #FF5538;
+    padding: 20px 25px;
+    border-radius: 10px;
+    color: #fff;
+}
+/* customer Par End */
+
+/* Project Par Start */
+#projectPart{
+    background: #FFD7C8;
+    padding: 100px 0;
+}
+
+.proLeft p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.proLeft h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.proBtn button:hover{
+    border: 1px solid #FF5538;
+    color: #FF5538;
+    background: transparent;
+}
+
+.proBtn button{
+    background: #FF5538;
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 28px;
+    font-weight: 600;
+    line-height: 200%;
+    border-radius: 18px;
+    border: none;
+    transition: .5s;
+    margin: 0 10px;
+    text-transform: capitalize;
+}
+
+.proTxt p{
+    font-size: 19px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+hr{
+    margin: 24px 0;
+}
+/* Project Par End */
+
+/* Footer Par Start */
+#footerPart{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+
+.footerMenu{
+    margin-bottom: 50px;
+}
+
+.footerItem ul{
+    padding: 0;
+}
+
+.footerItem h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+
+.footerItem ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #29313D;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+
+.footerLogo p{
+    font-size: 18px;
+    line-height: 180%;
+    margin-top: 40px;
+    padding-right: 65px;
+    text-transform: capitalize;
+}
+
+footer p{
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+.footerLink a{
+    color: #29313D;
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+    margin-left: 40px;
+}
+
+.footerBootom{
+    margin: 50px 0;
+}
+
+.back-to-top a{
+    width: 100%;
+    padding: 5px 0;
+    color: #29313D;
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: uppercase;
+    border: 1px solid #29313D;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Footer Par End */
+
+/* Omuk Par Start */
+.stikyMenu{
+    background: pink;
+    animation: alamin 1s;
+    z-index: 5;
+    }
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+/* Omuk Par End */
+
+/* Omuk Par Start */
+/* Omuk Par End */
+
+/* Omuk Par Start */
+/* Omuk Par End */
+
+/* Omuk Par Start */
+/* Omuk Par End */
+
+
+
